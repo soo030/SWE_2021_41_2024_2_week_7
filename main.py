@@ -8,6 +8,6 @@ def twoSum(nums: List[int], target:int) -> List[int]:
     for j in range(i+1, length):
       tmp = nums[i] + nums[j]
       if tmp == target:
-        answer.append[i]
-        answer.append[j]
+        answer.append(i)
+        answer.append(j)
         return answer
